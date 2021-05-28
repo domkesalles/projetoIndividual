@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/indexFv2.css">
+    <title>São Paulo Futebol Clube</title>
+</head>
+
+<body>
+    <div class="conteinerInicial">
+        <div class="menuGeral">
+            <div class="escudo"><img src="https://logodownload.org/wp-content/uploads/2016/09/sao-paulo-logo-escudo-1.png"
+                    alt="Escudo São Paulo Futebol Clube">
+            </div>
+            <p class="texto">O CLUBE DA FÉ</p>
+            <div id="menuHome" class="iconesMenu"><img src="https://image.flaticon.com/icons/png/512/1946/1946488.png"
+                    alt="">
+                INÍCIO
+            </div>
+            <div class="iconesMenu" onclick="jogos()"><img src="https://image.flaticon.com/icons/png/512/33/33736.png"
+                    alt="">
+                JOGOS
+            </div>
+            <div class="iconesMenu" onclick="noticias()"><img
+                    src="https://image.flaticon.com/icons/png/512/2983/2983803.png" alt="">
+                NOTÍCIAS
+            </div>
+            <div class="iconesMenu"><img src="https://image.flaticon.com/icons/png/512/1946/1946429.png"
+                    alt="">
+                PERFIL
+            </div>
+        </div>
+        <div class="fundo">
+            <p class="frase">AQUI SÓ SE TORCE PARA O <b style="color: red;">SÃO PAULO </b>F.C.</p>
+            <p class="subtitulo">Venha ser mais um Soberano!</p>
+            <div class="botoes">
+                <button class="botaoL" onclick="logar()">LOGIN</button>
+                <button class="botaoC" onclick="cadastrar()">CADASTRO</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function logar() {
+        window.location.href = "loginF.html";
+    }
+
+    function cadastrar() {
+        window.location.href = "cadastroF.html";
+    }
+
+    function noticias() {
+        alert("Cadastre-se para continuar");
+    }
+
+    function jogos() {
+        alert("Cadastre-se para continuar");
+    }
+</script>
