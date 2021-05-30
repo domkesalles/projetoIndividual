@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: Verdana;
@@ -62,37 +63,58 @@ html, body {
 }
 
 .fundo {
-    width: 100%;
-    height: 585px;
-    background-color: red;
-    margin-top: 18px;
-    padding-top: 1%;
+    width: 1200px;
+    margin: auto;
 }
 
-.grafico {
-    width: 30%;
-    height: 300px;
-    background-color: blue;
-    margin: 0 auto;
-    border-radius: 100%;
+.cabecalho {
+    height: 70px;
+    /* background-color: purple; */
+}
+
+.noticiaTitulo {
+    width: 11%;
+    /* background-color: teal; */
+    float: left;
+    font-weight: normal;
+}
+
+.linhaVermelha {
+    height: 5px;
+    background-color: red;
+    width: 88.5%;
+    float: right;
+    margin-top: 40px;
 }
 
 .jogos {
-    width: 50%;
+    width: 70%;
     height: 260px;
-    background-color: green;
+    /* background-color: green; */
     margin: 1% auto;
+    text-align: center;
 }
 
-.jogoU {
-    width: 50%;
-    height: 100%;
+.jogo {
+    /* width: 50%; */
+    margin-top: 15px;
+    height: 100px;
     /* padding-top: 10%; */
     /* background-color: black; */
 }
 
-.jogoU img {
-    width: 100%;
-    height: 30%;
-    margin-top: 22%;
+.tituloJogo {
+    height: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_jogos {
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.div_jogos:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
 }
