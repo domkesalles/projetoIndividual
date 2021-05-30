@@ -17,18 +17,16 @@
                     alt="Escudo São Paulo Futebol Clube">
             </div>
             <p class="texto">O CLUBE DA FÉ</p>
-            <div class="iconesMenu" style="display: none;"><img src="https://image.flaticon.com/icons/png/512/1946/1946488.png" alt="">
+            <div class="iconesMenu" onclick="home()"><img src="https://image.flaticon.com/icons/png/512/1946/1946488.png" alt="">
                 INÍCIO
             </div>
-            <div class="iconesMenu" onclick="jogos()"><img src="https://image.flaticon.com/icons/png/512/33/33736.png" alt="">
+            <div class="iconesMenu" onclick="jogos()"><img src="https://image.flaticon.com/icons/png/512/33/33736.png"
+                    alt="">
                 JOGOS
             </div>
             <div id="menuNoticias" class="iconesMenu"><img
                     src="https://image.flaticon.com/icons/png/512/2983/2983803.png" alt="">
                 NOTÍCIAS
-            </div>
-            <div class="iconesMenu"><img src="https://image.flaticon.com/icons/png/512/1946/1946429.png" alt="">
-                PERFIL
             </div>
         </div>
         <div class="conteinerInferior">
@@ -50,20 +48,24 @@
         </div>
     </div>
 
-<script>
-    function jogos() {
-        window.location.href = "jogosF.html";
-    }
+    <script>
+        function jogos() {
+            window.location.href = "jogosF.html";
+        }
 
-    function campeao() {
-        window.location.href = "https://globoesporte.globo.com/sp/futebol/campeonato-paulista/jogo/23-05-2021/sao-paulo-palmeiras.ghtml";
-    }
+        function home() {
+            window.location.href = "home.html";
+        }
 
-    function rigoni() {
-        window.location.href = "https://globoesporte.globo.com/futebol/times/sao-paulo/noticia/noticias-spfc-sao-paulo-anuncia-emiliano-rigoni-reforco.ghtml";
-    }
+        function campeao() {
+            window.location.href = "https://globoesporte.globo.com/sp/futebol/campeonato-paulista/jogo/23-05-2021/sao-paulo-palmeiras.ghtml";
+        }
 
-    function camisa() {
-        window.location.href = "https://mantosdofutebol.com.br/2021/05/camisa-listrada-do-sao-paulo-2021-2022-adidas/";
-    }
-</script>
+        function rigoni() {
+            window.location.href = "https://globoesporte.globo.com/futebol/times/sao-paulo/noticia/noticias-spfc-sao-paulo-anuncia-emiliano-rigoni-reforco.ghtml";
+        }
+
+        function camisa() {
+            window.location.href = "https://mantosdofutebol.com.br/2021/05/camisa-listrada-do-sao-paulo-2021-2022-adidas/";
+        }
+    </script>

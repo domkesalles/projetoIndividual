@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    height: 100%;
+    width: 100%;
+}
+
+.conteinerInicial {
+    /* height: 757px; */
+    height: 100%;
+    width: 100%;
+    /* background-image: url(https://wallpapercave.com/wp/wp6971531.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: black; */
+}
+
+.menuGeral {
+    background-color: red;
+    height: 15%;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+}
+
+.escudo {
+    /* background-color: blue; */
+    margin-left: 2%;
+}
+
+.escudo img {
+    width: 90px;
+    margin-top: 8%;
+}
+
+.texto {
+    /* background-color: green; */
+    width: 13%;
+    font-size: 20px;
+    padding-top: 1.5%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 58%;
+    color: white;
+}
+
+.iconesMenu {
+    /* background-color: blue; */
+    width: 5%;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 2.5%;
+    cursor: pointer;
+}
+
+.iconesMenu img {
+    width: 50px;
+}
+
+.conteinerInferior {
+    /* background-color: wheat; */
+    width: 1300px;
+    margin: auto;
+}
+
+.cabecalho {
+    height: 70px;
+    /* background-color: purple; */
+}
+
+.titulosTitulo {
+    width: 15%;
+    /* background-color: teal; */
+    float: left;
+    font-weight: normal;
+}
+
+.linhaVermelha {
+    height: 5px;
+    background-color: red;
+    width: 84.5%;
+    float: right;
+    margin-top: 40px;
+}
+
+.titulos {
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    margin-top: 18px;
+    text-align: center;
+}
+
+.imgTitulos {
+    margin: auto;
+}
+
+.imgTitulos img {
+    height: 100px;
+}
+
+.legenda {
+    padding-top: 30px;
+}

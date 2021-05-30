@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/indexFv2.css">
+    <link rel="stylesheet" href="CSS/home.css">
     <title>São Paulo Futebol Clube</title>
 </head>
 
@@ -30,32 +30,29 @@
             </div>
         </div>
         <div class="fundo">
-            <p class="frase">AQUI SÓ SE TORCE PARA O <b style="color: red;">SÃO PAULO </b>F.C.</p>
-            <p class="subtitulo">Venha ser mais um Soberano!</p>
+            <p class="frase">Bem-vindo <b id="b_usuario" style="color: red;">Fulano</b>!</p>
+            <p class="subtitulo">AQUI SÓ SE TORCE PARA O SÃO PAULO F.C.</p>
             <div class="botoes">
-                <button class="botaoL" onclick="logar()">LOGIN</button>
-                <button class="botaoC" onclick="cadastrar()">CADASTRO</button>
+                <button class="botaoL" onclick="informacoes()">INFORMAÇÕES</button>
+                <button class="botaoC" onclick="titulos()">TÍTULOS</button>
             </div>
         </div>
     </div>
-</body>
-
-</html>
 
 <script>
-    function logar() {
-        window.location.href = "loginF.html";
-    }
-
-    function cadastrar() {
-        window.location.href = "cadastroF.html";
+    function jogos() {
+        window.location.href = "jogosF.html";
     }
 
     function noticias() {
-        alert("Cadastre-se para continuar");
+        window.location.href = "noticiasF.html";
     }
 
-    function jogos() {
-        alert("Cadastre-se para continuar");
+    function informacoes() {
+        window.location.href = "info.html";
+    }
+
+    function titulos() {
+        window.location.href = "titulos.html";
     }
 </script>
