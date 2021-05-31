@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    height: 100%;
+    width: 100%;
+}
+
+.conteinerInicial {
+    /* height: 757px; */
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp6971531.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+}
+
+.menuGeral {
+    background-color: red;
+    height: 15%;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+}
+
+.escudo {
+    /* background-color: blue; */
+    margin-left: 2%;
+}
+
+.escudo img {
+    width: 90px;
+    margin-top: 8%;
+}
+
+.texto {
+    /* background-color: green; */
+    width: 13%;
+    font-size: 20px;
+    padding-top: 1.5%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 58%;
+    color: white;
+}
+
+.iconesMenu {
+    /* background-color: blue; */
+    width: 5%;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 2.5%;
+    cursor: pointer;
+}
+
+.iconesMenu img {
+    width: 50px;
+}
+
+#menuHome {
+    filter: invert(1);
+}
+
+.fundo {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    width: 1200px;
+    height: 400px;
+    display: block;
+    margin: 5% auto;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
+}
+
+.frase {
+    padding-top: 5%;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.botaoL {
+    /* margin: 0 auto; */
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.botaoL:hover {
+    background-color: #ff0000b7;
+    color: white;
+}
+
+.botaoC {
+    /* margin: 0 auto; */
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.botaoC:hover {
+    background-color: #ff0000b7;
+    color: white;
+}

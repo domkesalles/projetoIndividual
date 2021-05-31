@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.conteinerInicial {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://pbs.twimg.com/media/EXeTNC9WoAAu_lD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+}
+
+.menuGeral {
+    background-color: red;
+    height: 15%;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    font-weight: 900;
+    /* position: fixed; */
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.escudo {
+    /* background-color: blue; */
+    margin-left: 2%;
+}
+
+.escudo img {
+    width: 90px;
+    margin-top: 8%;
+}
+
+.texto {
+    /* background-color: green; */
+    width: 13%;
+    font-size: 20px;
+    padding-top: 1.5%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 54%;
+    color: white;
+}
+
+.iconesMenu {
+    /* background-color: blue; */
+    width: 5%;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 2.5%;
+    cursor: pointer;
+}
+
+.iconesMenu img {
+    width: 50px;
+}
+
+.menuEsquerda {
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 1);
+}
+
+.titulo {
+    margin: 0;
+    padding-top: 25%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menuEsquerda form {
+    text-align: center;
+}
+
+.menuEsquerda input {
+    height: 30px;
+    width: 70%;
+    margin-top: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+.menuEsquerda button {
+    height: 70px;
+    width: 71%;
+    margin-top: 70px;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+.menuEsquerda button:hover {
+    color: white;
+    background-color: rgb(255, 41, 41);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.linkC {
+    color: black;
+    font-size: 18px;
+}
+
+.linkC:hover {
+    color: red;
+}

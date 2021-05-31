@@ -1,0 +1,169 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    height: 100%;
+    width: 100%;
+}
+
+.conteinerInicial {
+    /* height: 757px; */
+    height: 100%;
+    width: 100%;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ctESBOSayi4NK-T6ca2AbJxl70YXR_mTzg&usqp=CAU); */
+    /* background-color: black; */
+}
+
+.menuGeral {
+    background-color: red;
+    height: 15%;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+}
+
+.escudo {
+    /* background-color: blue; */
+    margin-left: 2%;
+}
+
+.escudo img {
+    width: 90px;
+    margin-top: 8%;
+}
+
+.texto {
+    /* background-color: green; */
+    width: 13%;
+    font-size: 20px;
+    padding-top: 1.5%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 58%;
+    color: white;
+}
+
+.iconesMenu {
+    /* background-color: blue; */
+    width: 5%;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-right: 2.5%;
+    cursor: pointer;
+}
+
+.iconesMenu img {
+    width: 50px;
+}
+
+#menuNoticias {
+    filter: invert(1);
+}
+
+.conteinerInferior {
+    /* background-color: wheat; */
+    width: 1300px;
+    margin: auto;
+}
+
+.cabecalho {
+    height: 70px;
+    /* background-color: purple; */
+}
+
+.noticiaTitulo {
+    width: 15%;
+    /* background-color: teal; */
+    float: left;
+    font-weight: normal;
+}
+
+.linhaVermelha {
+    height: 5px;
+    background-color: red;
+    width: 84.5%;
+    float: right;
+    margin-top: 40px;
+}
+
+.noticias {
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    margin-top: 18px;
+}
+
+.noticiaGrande {
+    width: 50%;
+    height: 100%;
+    background-image: url("../Imagens/campeaoP.png");
+    background-size: cover;
+    float: left;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+    /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 9%, rgba(0,212,255,0) 100%); */
+    /* background-color: green; */
+}
+
+.noticiaGrande:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.manchete {
+    /* background-color: white; */
+    color: white;
+    padding-top: 430px;
+    margin-left: 30px;
+}
+
+.noticiaMenor {
+    width: 45%;
+    height: 45%;
+    background-image: url("../Imagens/emiliano.png");
+    background-size: cover;
+    float: right;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+    /* margin-right: 30px; */
+}
+
+.noticiaMenor:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.manchete1 {
+    color: white;
+    padding-top: 170px;
+    margin-left: 20px;
+}
+
+.noticiaMenor1 {
+    width: 45%;
+    height: 45%;
+    background-image: url("../Imagens/uniforme.png");
+    background-size: cover;
+    float: right;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+    /* bottom: 0; */
+    /* margin-right: 30px; */
+}
+
+.noticiaMenor1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.manchete1 {
+    color: white;
+    padding-top: 170px;
+    margin-left: 20px;
+}

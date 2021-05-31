@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cadastroF.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="conteinerInicial">
+        <div class="menuGeral">
+            <div class="escudo"><img
+                    src="https://logodownload.org/wp-content/uploads/2016/09/sao-paulo-logo-escudo-1.png"
+                    alt="Escudo São Paulo Futebol Clube">
+            </div>
+            <p class="texto">O CLUBE DA FÉ</p>
+            <div class="iconesMenu" onclick="inicio()"><img
+                    src="https://image.flaticon.com/icons/png/512/1946/1946488.png" alt="">
+                INÍCIO
+            </div>
+            <div class="iconesMenu" onclick="jogos()"><img src="https://image.flaticon.com/icons/png/512/33/33736.png"
+                    alt="">
+                JOGOS
+            </div>
+            <div class="iconesMenu" onclick="noticias()"><img
+                    src="https://image.flaticon.com/icons/png/512/2983/2983803.png" alt="">
+                NOTÍCIAS
+            </div>
+        </div>
+        <div class="menuEsquerda">
+            <p class="titulo">Crie sua conta</p>
+            <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+                <input type="text" name="idNome" placeholder="Digite seu nome">
+                <br>
+                <input type="email" name="idEmail" placeholder="Digite seu e-mail">
+                <br>
+                <input type="date" name="idData">
+                <br>
+                <select name="idJogador" class="select">
+                    <option hidden>SELECIONE SEU JOGADOR FAVORITO</option>
+                    <option value="1">Tiago Volpi</option>
+                    <option value="2">Miranda</option>
+                    <option value="3">Arboleda</option>
+                    <option value="4">Léo</option>
+                    <option value="5">Reinaldo</option>
+                    <option value="6">Luan</option>
+                    <option value="7">Liziero</option>
+                    <option value="8">Benítez</option>
+                    <option value="9">Daniel Alves</option>
+                    <option value="10">Luciano</option>
+                    <option value="11">Pablo</option>
+                </select>
+                <input type="password" name="idSenha" placeholder="Digite sua senha">
+                <br>
+                <!-- <input type="password" name="idSenhaConfirm" placeholder="Confirme sua senha">
+                <br> -->
+                <button id="btn_entrar" type="submit">CADASTRAR-SE</button>
+                <div id="div_erro"></div>
+                <a href=loginF.html>
+                    <p class="linkC">JÁ POSSUO UMA CONTA</p>
+                </a>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        function inicio() {
+            window.location.href = "indexFv2.html";
+        }
+
+        function noticias() {
+            alert("Cadastre-se para continuar");
+        }
+
+        function jogos() {
+            alert("Cadastre-se para continuar");
+        }
+
+        function cadastrar() {
+            aguardar();
+            var formulario = new URLSearchParams(new FormData(form_cadastro));
+            fetch("/usuarios/cadastrar", {
+                method: "POST",
+                body: formulario
+            }).then(function (response) {
+
+                if (response.ok) {
+
+                    window.location.href = 'loginF.html';
+
+                } else {
+
+                    console.log('Erro de cadastro!');
+                    response.text().then(function (resposta) {
+                        div_erro.innerHTML = resposta;
+                    });
+                    finalizar_aguardar();
+                }
+            });
+
+            return false;
+        }
+
+        function aguardar() {
+            btn_entrar.disabled = true;
+            div_erro.style.display = 'none';
+        }
+
+        function finalizar_aguardar() {
+            btn_entrar.disabled = false;
+            div_erro.style.display = 'block';
+        }
+    </script>
