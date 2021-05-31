@@ -28,3 +28,7 @@ insert into Jogador values (null, 1, 'Tiago Volpi'),
                         (null, 11, 'Luciano'),
                         (null, 9, 'Pablo');
                         
+                        select * from Jogador;
+                                                select * from Usuario;
+
+                        
