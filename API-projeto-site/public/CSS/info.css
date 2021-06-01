@@ -128,3 +128,17 @@ html, body {
 .coluna2 img {
     width: 100%;
 }
+
+.conteinerDash {
+    margin-top: 5%;
+    height: 750px;
+    /* background-color: black; */
+}
+
+.iframe {
+    width: 40%;
+    /* background-color: blue; */
+    height: 50%;
+    float: right;
+    margin-top: 13%;
+}
