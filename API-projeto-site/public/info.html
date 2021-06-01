@@ -86,4 +86,8 @@
         function noticias() {
             window.location.href = "noticiasF.html";
         }
+
+        var listaVideos = ["https://www.youtube.com/embed/5fbrzAY6sd0", "https://www.youtube.com/embed/R2CW5dxmbGY", "https://www.youtube.com/embed/6on1RrW-XOY", "https://www.youtube.com/embed/tyQjA5eWfWs", "https://www.youtube.com/embed/2UVmHRoRJVI", "https://www.youtube.com/embed/X7v2_0djTg4", "https://www.youtube.com/embed/5bqfE4dKwww", "https://www.youtube.com/embed/5K8J7_8m-Gw", "https://www.youtube.com/embed/bBKJaF_dTV4", "https://www.youtube.com/embed/FoliEiVggT8"];
+
+        if_video.src = `${listaVideos[(Math.random() * 10).toFixed(0)]}`;
     </script>
