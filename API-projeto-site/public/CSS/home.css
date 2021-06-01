@@ -60,6 +60,22 @@ html, body {
     width: 50px;
 }
 
+.iconesMenu button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 0;
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    /* border: 2px solid black; */
+    cursor: pointer;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* margin-bottom: 5px; */
+    /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 1); */
+}
+
 #menuHome {
     filter: invert(1);
 }
