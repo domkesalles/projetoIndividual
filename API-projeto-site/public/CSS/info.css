@@ -36,12 +36,12 @@ html, body {
 
 .texto {
     /* background-color: green; */
-    width: 13%;
+    /* width: 80%; */
     font-size: 20px;
     padding-top: 1.5%;
     text-align: center;
     margin-left: 2%;
-    margin-right: 58%;
+    margin-right: 48%;
     color: white;
 }
 
@@ -149,12 +149,18 @@ html, body {
     margin-top: 5%;
     height: 750px;
     /* background-color: black; */
+    text-align: center;
+}
+
+.tituloVideo {
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .iframe {
-    width: 40%;
+    width: 50%;
     /* background-color: blue; */
-    height: 50%;
-    float: right;
-    margin-top: 13%;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 25%;
 }

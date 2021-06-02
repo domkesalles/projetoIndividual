@@ -38,12 +38,12 @@ html, body {
 
 .texto {
     /* background-color: green; */
-    width: 13%;
+    /* width: 80%; */
     font-size: 20px;
     padding-top: 1.5%;
     text-align: center;
     margin-left: 2%;
-    margin-right: 58%;
+    margin-right: 48%;
     color: white;
 }
 

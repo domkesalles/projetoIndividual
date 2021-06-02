@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/info.css">
+    <script src="funcoes.js"></script>
     <title>Informações</title>
 </head>
 
@@ -68,8 +69,9 @@
             </div>
         </div>
         <div class="conteinerDash">
+            <h1 class="tituloVideo">VÍDEO DO DIA</h1>
             <div class="iframe" id="div_video">
-                <iframe id="if_video" width="560" height="315" src="" title="YouTube video player" frameborder="0"
+                <iframe id="if_video" width="760" height="415" src="" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
@@ -91,5 +93,5 @@
 
         var listaVideos = ["https://www.youtube.com/embed/5fbrzAY6sd0", "https://www.youtube.com/embed/R2CW5dxmbGY", "https://www.youtube.com/embed/6on1RrW-XOY", "https://www.youtube.com/embed/tyQjA5eWfWs", "https://www.youtube.com/embed/2UVmHRoRJVI", "https://www.youtube.com/embed/X7v2_0djTg4", "https://www.youtube.com/embed/5bqfE4dKwww", "https://www.youtube.com/embed/5K8J7_8m-Gw", "https://www.youtube.com/embed/bBKJaF_dTV4", "https://www.youtube.com/embed/FoliEiVggT8"];
 
-        if_video.src = `${listaVideos[(Math.random() * 10).toFixed(0)]}`;
+        if_video.src = `${listaVideos[(Math.random() * 9).toFixed(0)]}`;
     </script>
